@@ -1,6 +1,5 @@
 # Vietnamese-Sentiment-Distillation
 
-
 # Description
 - This repo implemented Model Distillation (Transfer Knowledge) Strategies on Vietnamese Sentiment dataset
 - Purpose: Observing approach that can help light-weight model outperforms deep-weight in specific NLP task
@@ -58,11 +57,11 @@ python evaluation.py \
 |  Model | Params |Accuracy | Precision | Recall | F1 |
 | -------- | ------- |------- | -------- |-------- |-------- |
 | Teacher  | 346M |93.14%|93.14% |93.14% |93.14%
-| Base Student 50-50  |  113M |93.36%| 93.36%  |93.36% |93.36%|
+| Base Student 50-50  |  113M |**93.36%**| **93.36%**  |93.36% |**93.36%**|
 | Base Student 25-75  |  113M |93.11%| 93.11%  |93.11% |93.11%|
 | Large Student 50-50  |  115M |90.80%| 90.80  |90.80 |90.80|
 | Large Student 25-75  |  115M |91.11%| 91.11%  |91.11% |91.11%|
-| Bi-LSTM/Word2Vec  |  - |-| 90.80%  |93.40% |92.00%|
+| Bi-LSTM/Word2Vec  |  - |-| 90.80%  |**93.40%** |92.00%|
 | MaxEnt  |  - |- | 87.71% |88.66% |87.94%|
 
 ### Inference
@@ -82,5 +81,8 @@ Result is:
   Positive: 0.5979
   Neutral: 0.4009
 ```
+
+
+
 
 
