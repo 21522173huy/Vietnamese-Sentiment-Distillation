@@ -16,7 +16,7 @@ cd Vietnamese-Sentiment-Distillation
 
 
 ## Run Script
-Here is my pretrained-T5 weight: `https://drive.google.com/drive/folders/1rJqLDSarEcIOujA_PS0sCcIP8gXjYxJE?usp=sharing`
+Here is my pretrained-T5 weight: `https://drive.google.com/drive/folders/1rJqLDSarEcIOujA_PS0sCcIP8gXjYxJE?usp=sharing`.
 Please download and add checkpoint path to all the necessary parts of the code below.
 
 ### Teacher Finetuning
