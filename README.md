@@ -1,6 +1,7 @@
 # Vietnamese-Sentiment-Distillation
 
-## Description
+
+# Description
 - This repo implemented Model Distillation (Transfer Knowledge) Strategies on Vietnamese Sentiment dataset
 - Purpose: Observing approach that can help light-weight model outperforms deep-weight in specific NLP task
 - Task: Sentiment Analysis
@@ -53,6 +54,7 @@ python evaluation.py \
 - Student-25-75 : 0.25 for SoftWeight and 0.75 for HardWeight.
 - Bi-LSTM/Word2Vec: `Deep Learning versus Traditional Classifiers on Vietnamese Student’s Feedback Corpus` paper.
 - MaxEnt : `UIT-VSFC: Vietnamese Students’ Feedback Corpus for Sentiment Analysis` paper.
+
 |  Model | Params |Accuracy | Precision | Recall | F1 |
 | -------- | ------- |------- | -------- |-------- |-------- |
 | Teacher  | 346M |93.14%|93.14% |93.14% |93.14%
